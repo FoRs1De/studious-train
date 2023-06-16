@@ -1,7 +1,18 @@
+@import '/CSS/contact.css';
+@import '/CSS/windows98.css';
+
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-color: whitesmoke;
   margin: 0;
   padding: 0;
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
 }
 
 #blog_foto {
@@ -13,6 +24,8 @@ body {
   background-color: white;
   box-shadow: 0 4px 5px lightgray;
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 
 .links {
@@ -46,9 +59,12 @@ body {
 .wrapper {
   display: flex;
   flex-flow: row wrap;
+  flex-wrap: wrap;
   font-weight: bold;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1 0 auto;
 }
 
 .wrapper > * {
@@ -63,9 +79,10 @@ body {
 #about {
   text-align: center;
   background-color: lightgray;
-  position: static;
   width: 100%;
-  height: 80px;
-  padding-bottom: 60px;
-  padding-top: 10px;
+}
+
+#about p {
+  margin-left: 20px;
+  margin-right: 20px;
 }

@@ -1,0 +1,40 @@
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 5px lightgray;
+  width: 20%;
+}
+
+.submit {
+  background-color: lightskyblue;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid white;
+}
+
+.submit:hover {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid white;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+textarea {
+  border-radius: 5px;
+}
