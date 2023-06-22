@@ -1,6 +1,6 @@
-@import '/CSS/contact.css';
-@import '/CSS/windows98.css';
-@import '/CSS/chessboard.css';
+@import './CSS/contact.css';
+@import './CSS/windows98.css';
+@import './CSS/chessboard.css';
 
 html,
 body {
@@ -36,6 +36,7 @@ body {
 
 .links {
   list-style-type: none;
+  text-decoration: none;
   display: inline-flex;
   width: 100%;
   justify-content: space-evenly;
@@ -58,8 +59,8 @@ body {
 }
 
 .link:hover {
-  text-decoration: underline;
-  color: blue;
+  text-decoration: none;
+  color: darkgrey;
 }
 
 .wrapperMain {
