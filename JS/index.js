@@ -282,3 +282,26 @@ function repeatStr(n, s) {
 }
 
 repeatStr(100, 'I');
+
+let devide = `devide`;
+let add = 'add';
+let substract = `substract`;
+let multiply = `multiply`;
+
+const calculate = (stringName, number1, number2) => {
+  if (stringName === `add`) {
+    return number1 + number2;
+  } else if (stringName === `substract`) {
+    return number1 - number2;
+  } else if (stringName === `multiply`) {
+    return number1 * number2;
+  } else if (stringName === `devide`) {
+    return number1 / number2;
+  } else {
+    return `Invalid Operation!`;
+  }
+};
+
+const result = calculate(add, 4, 2);
+
+console.log(result);

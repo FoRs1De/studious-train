@@ -33,12 +33,15 @@ body {
   width: 100%;
   position: sticky;
   top: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .links {
   list-style-type: none;
   text-decoration: none;
   display: inline-flex;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
 }
